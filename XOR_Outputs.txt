@@ -1,0 +1,5 @@
+General Accuracy: 0.75
+Input: [-1 -1] Expected Output: [0] Predicted Output: [0.46769056] Predicted Output Int: 0
+Input: [-1  1] Expected Output: [1] Predicted Output: [0.49430168] Predicted Output Int: 0
+Input: [ 1 -1] Expected Output: [1] Predicted Output: [0.5554262] Predicted Output Int: 1
+Input: [1 1] Expected Output: [0] Predicted Output: [0.4521708] Predicted Output Int: 0

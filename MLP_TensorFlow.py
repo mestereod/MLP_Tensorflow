@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TensorFlow e tf.keras
 import tensorflow as tf
 from tensorflow import keras
@@ -177,4 +176,3 @@ print(num_classes)
 
 # https://www.tutorialspoint.com/tensorflow/tensorflow_multi_layer_perceptron_learning.htm
 # https://www.jessicayung.com/explaining-tensorflow-code-for-a-multilayer-perceptron/
->>>>>>> 4305bff6a6e2760f32923161bb1327ec8491cb0a
