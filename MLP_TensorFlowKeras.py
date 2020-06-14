@@ -94,8 +94,11 @@ def default_cases(problem_choosed, input_number, hidden_number, output_number, e
     
     # fazendo log de pesos iniciais
     # Utilizamos os pesos da variável weights, com os pesos dos neurônios e do Bias
+    weights_concatenate = ''
+    for i in weights[0]:
+        weights_concatenate += str(i) + " "
     writetxt(problem_choosed + '_Initial_Weights',
-             'From input layer through hidden layer:\n' + str(weights[0]) + '\nBias:\n' + str(weights[1]) +
+             'From input layer through hidden layer:\n' + weights_concatenate + '\nBias:\n' + str(weights[1]) +
              '\n\nFrom hidden layer through output layer:\n' + str(weights[2]) + '\nBias:\n' + str(weights[3]))
     
     # obtendo os dados do csv
@@ -141,23 +144,6 @@ def default_cases(problem_choosed, input_number, hidden_number, output_number, e
                         [0, 0, 0, 0, 0, 0, 1]])
 
 
-    # treinando o modelo
-    '''
-    model.fit argumentos
-    
-    object : the model to train.      
-    -> X : our training data. Can be Vector, array or matrix      
-    -> Y : our training labels. Can be Vector, array or matrix       
-    -> Batch_size : it can take any integer value or NULL and by default, it will
-    be set to 32. It specifies no. of samples per gradient.      
-    -> Epochs : an integer and number of epochs we want to train our model for.      
-    -> Verbose : specifies verbosity mode(0 = silent, 1= progress bar, 2 = one
-    line per epoch).      
-    -> Shuffle : whether we want to shuffle our training data before each epoch.      
-    -> steps_per_epoch : it specifies the total number of steps taken before
-    one epoch has finished and started the next epoch. By default it values is set to NULL.
-    '''
-
     # Treinamos o modelo utilizando o método fit
     # Passamos nesse método os valores de entrada que e os valores que esperamos para saída, ambos lidos do CSV anteriormente
     # Adicionamos a quantidade de épocas também, e tudo isso fica na variável hist
@@ -176,8 +162,13 @@ def default_cases(problem_choosed, input_number, hidden_number, output_number, e
     # após treinar o modelo, armazenamos em weights os novos pesos
     # esses novos pesos são os pesos finais que serão utilizados no log Final Weights
     weights = model.get_weights()
+    
+    weights_concatenate = ''
+    for i in weights[0]:
+        weights_concatenate += str(i) + " "
+        
     writetxt(problem_choosed + '_Final_Weights',
-             'From input layer through hidden layer:\n' + str(weights[0]) + '\nBias:\n' + str(weights[1]) +
+             'From input layer through hidden layer:\n' + weights_concatenate + '\nBias:\n' + str(weights[1]) +
              '\n\nFrom hidden layer through output layer:\n' + str(weights[2]) + '\nBias:\n' + str(weights[3]))
 
     

@@ -3,123 +3,123 @@ Input: [-1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.5  1.  -1.  -1.  -1.
  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.5 -1.
  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.   1.   1.   1.   1.   1.  -1.
  -1.   1.  -1.  -1.5 -1.   1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.
-  1.  -1.   1.  -1.   1.  -1.   1. ] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [1, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: A Predicted Output: [0.74063957 0.0683962  0.03662942 0.06782541 0.06109016 0.16302411
- 0.19634217]
+  1.  -1.   1.  -1.   1.  -1.   1. ] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [1, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: A Predicted Output: [0.77888787 0.02800169 0.1708782  0.03690934 0.12061875 0.11148791
+ 0.14591992]
 Input: [ 1.   1.   1.   1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.5 -1.  -1.  -1.   1.
  -1.   1.   1.   1.   1.   1.  -1.  -1.   1.  -1.  -1.5 -1.  -1.   1.
  -1.   1.  -1.5 -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.
-  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.09976514 0.68679875 0.05067969 0.10681597 0.2661892  0.10474839
- 0.0288826 ]
+  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.03044958 0.71935976 0.04084899 0.18260199 0.18270181 0.10848647
+ 0.04685028]
 Input: [-1.  -1.   1.   1.   1.   1.   1.  -1.5  1.  -1.  -1.  -1.5 -1.   1.
   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.5 -1.  -1.  -1.  -1.  -1.
  -1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.5 -1.   1.
- -1.  -1.   1.   1.   1.   1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.05421983 0.10280598 0.6513701  0.05040722 0.1549809  0.18405245
- 0.05859106]
+ -1.  -1.   1.   1.   1.   1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.13326654 0.13550968 0.6396405  0.09347177 0.12096906 0.1210897
+ 0.04366357]
 Input: [ 1.   1.   1.   1.   1.  -1.  -1.  -1.   1.  -1.  -1.5 -1.   1.  -1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.5 -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.5 -1.  -1.   1.  -1.
-  1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.0653578  0.12392817 0.10809321 0.65218794 0.09002307 0.09426686
- 0.12216208]
+  1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.03707361 0.1403624  0.08432975 0.54543066 0.05940376 0.09424958
+ 0.12153356]
 Input: [ 1.   1.  -1.   1.   1.   1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.
  -1.   1.  -1.   1.  -1.5 -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.5  1.  -1.  -1.  -1.  -1.   1.
-  1.   1.   1.   1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 1, 0, 0] Expected Output Letter: E Predicted Output Letter: E Predicted Output: [0.04106688 0.12839036 0.10132806 0.0561079  0.5112593  0.11917672
- 0.14104904]
+  1.   1.   1.   1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 1, 0, 0] Expected Output Letter: E Predicted Output Letter: E Predicted Output: [0.04966533 0.2434922  0.03920276 0.05719027 0.6154844  0.10410829
+ 0.21864237]
 Input: [-1.  -1.  -1.   1.   1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.
  -1.   1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.5  1.  -1.
- -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.12813981 0.06089309 0.13582993 0.10533578 0.14310052 0.7249486
- 0.05217126]
+ -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.10959624 0.05967518 0.17209493 0.10131918 0.07982848 0.64122754
+ 0.06761067]
 Input: [ 1.  -1.   1.  -1.  -1.5  1.   1.  -1.   1.  -1.  -1.   1.  -1.  -1.
  -1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.
  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.
  -1.   1.  -1.  -1.   1.  -1.5 -1.  -1.   1.  -1.5 -1.  -1.   1.  -1.
-  1.   1.  -1.  -1.  -1.   1.   1. ] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 1] Expected Output Letter: K Predicted Output Letter: K Predicted Output: [0.23955022 0.0375181  0.03963233 0.04774046 0.154465   0.08959758
- 0.80271953]
+  1.   1.  -1.  -1.  -1.   1.   1. ] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 1] Expected Output Letter: K Predicted Output Letter: K Predicted Output: [0.2114453  0.02882436 0.03588792 0.1001015  0.1538888  0.09542806
+ 0.70347106]
 Input: [-1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.
  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.
  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.
  -1.   1.   1.   1.  -1.   1.  -1.  -1.5 -1.  -1.  -1.  -1.  -1.  -1.
- -1.5 -1.  -1.  -1.  -1.5 -1.  -1.5] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [1, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: A Predicted Output: [0.6375815  0.07162499 0.06732004 0.06091209 0.06618768 0.19889994
- 0.17978084]
+ -1.5 -1.  -1.  -1.  -1.5 -1.  -1.5] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [0, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: -1 Predicted Output: [0.45191836 0.05696121 0.18267165 0.04088406 0.05447057 0.21540822
+ 0.1136978 ]
 Input: [ 1.   1.   1.   1.   1.   1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.
  -1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.   1.
  -1.   1.   1.  -1.   1.   1.  -1.   1.  -1.  -1.  -1.  -1.  -1.   1.
   1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.5 -1.  -1.  -1.
-  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.07563897 0.63161457 0.08301041 0.1349449  0.24077868 0.13069566
- 0.02919633]
+  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.04600365 0.59017706 0.0503536  0.26757312 0.20775023 0.05245146
+ 0.0593729 ]
 Input: [-1.  -1.   1.   1.   1.  -1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.5 -1.  -1.5 -1.  -1.5 -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.
- -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.03962993 0.06519207 0.7119845  0.14167607 0.08321462 0.14939138
- 0.0784653 ]
+ -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.13088977 0.09544271 0.74679685 0.20066321 0.04451204 0.13576564
+ 0.03822574]
 Input: [-1.   1.   1.   1.   1.  -1.  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.   1.
   1.  -1.5 -1.5 -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.   1.
  -1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.   1.  -1.
- -1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.0637776  0.20506626 0.257111   0.70727307 0.08889494 0.09777208
- 0.05344769]
+ -1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.05199529 0.149589   0.27905676 0.651698   0.03010039 0.10106033
+ 0.06285389]
 Input: [-1.   1.   1.   1.   1.   1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
  -1.   1.   1.   1.   1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.5 -1.  -1.  -1.  -1.   1.  -1.  -1.5 -1.  -1.  -1.  -1.
- -1.   1.   1.   1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 1, 0, 0] Expected Output Letter: E Predicted Output Letter: E Predicted Output: [0.06315992 0.17857203 0.13362148 0.03580837 0.5422716  0.14116251
- 0.11032775]
+ -1.   1.   1.   1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 1, 0, 0] Expected Output Letter: E Predicted Output Letter: E Predicted Output: [0.11268504 0.116402   0.06617007 0.04963937 0.5210462  0.06382287
+ 0.0990567 ]
 Input: [-1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.5 -1.  -1.  -1.  -1.   1.  -1.
- -1.5 -1.  -1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.15435347 0.05536994 0.14168784 0.07257482 0.08742804 0.70011634
- 0.08979583]
+ -1.5 -1.  -1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.11341565 0.06458896 0.1496624  0.07800372 0.05829209 0.7392478
+ 0.09187189]
 Input: [-1. -1. -1. -1. -1. -1. -1.  1. -1. -1. -1.  1. -1. -1.  1. -1. -1.  1.
  -1. -1. -1.  1. -1.  1. -1. -1. -1. -1. -1.  1. -1. -1. -1. -1. -1.  1.
  -1.  1. -1. -1. -1. -1.  1. -1. -1.  1. -1. -1. -1.  1. -1. -1. -1.  1.
- -1. -1. -1. -1. -1. -1. -1. -1. -1.] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 1] Expected Output Letter: K Predicted Output Letter: K Predicted Output: [0.22708295 0.02424351 0.146235   0.0506899  0.0843442  0.11082023
- 0.5186517 ]
+ -1. -1. -1. -1. -1. -1. -1. -1. -1.] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 0] Expected Output Letter: K Predicted Output Letter: -1 Predicted Output: [0.22965942 0.03405092 0.1734789  0.15908073 0.07144066 0.10591665
+ 0.4733986 ]
 Input: [-1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.
  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.
  -1.   1.  -1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.   1.
-  1.   1.  -1.5 -1.5 -1.   1.   1. ] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [1, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: A Predicted Output: [0.7275477  0.08373751 0.04576873 0.04521098 0.08493005 0.18949573
- 0.1640623 ]
+  1.   1.  -1.5 -1.5 -1.   1.   1. ] Expected Output: [1 0 0 0 0 0 0] Predicted Output Int: [1, 0, 0, 0, 0, 0, 0] Expected Output Letter: A Predicted Output Letter: A Predicted Output: [0.7237644  0.03870972 0.1147523  0.05430228 0.12105485 0.03766068
+ 0.19119675]
 Input: [ 1.   1.   1.   1.   1.   1.  -1.  -1.5  1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.   1.   1.   1.   1.   1.  -1.
  -1.5  1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.5  1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.   1.
-  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.06164191 0.5624871  0.07820771 0.19027907 0.29691535 0.08778229
- 0.04984357]
+  1.   1.   1.   1.   1.   1.  -1. ] Expected Output: [0 1 0 0 0 0 0] Predicted Output Int: [0, 1, 0, 0, 0, 0, 0] Expected Output Letter: B Predicted Output Letter: B Predicted Output: [0.01949941 0.57005787 0.07011969 0.21993995 0.19902013 0.07604316
+ 0.06779157]
 Input: [-1.  -1.   1.   1.   1.  -1.   1.  -1.   1.  -1.  -1.  -1.   1.   1.
   1.  -1.  -1.  -1.  -1.  -1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.  -1.5 -1.  -1.  -1.  -1.  -1.  -1.  -1.
   1.  -1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.   1.  -1.
- -1.  -1.  -1.   1.   1.  -1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.03651132 0.08315286 0.7467447  0.11665361 0.08742853 0.17992944
- 0.06875252]
+ -1.  -1.  -1.   1.   1.  -1.  -1. ] Expected Output: [0 0 1 0 0 0 0] Predicted Output Int: [0, 0, 1, 0, 0, 0, 0] Expected Output Letter: C Predicted Output Letter: C Predicted Output: [0.14328428 0.09212878 0.7845786  0.18481283 0.04994144 0.11789225
+ 0.0299888 ]
 Input: [ 1.   1.   1.   1.   1.  -1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.
  -1.   1.  -1.  -1.  -1.  -1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.5 -1.5 -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.5 -1.   1.  -1.
-  1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.06396089 0.10008429 0.11375489 0.66372997 0.07631858 0.08917624
- 0.11418331]
+  1.   1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 1 0 0 0] Predicted Output Int: [0, 0, 0, 1, 0, 0, 0] Expected Output Letter: D Predicted Output Letter: D Predicted Output: [0.03281159 0.14659382 0.08645966 0.61553717 0.05581778 0.08402152
+ 0.12979656]
 Input: [ 1.   1.   1.   1.   1.   1.   1.  -1.   1.  -1.  -1.  -1.  -1.   1.
  -1.   1.  -1.  -1.   1.  -1.  -1.  -1.5 -1.   1.   1.  -1.  -1.  -1.
  -1.   1.  -1.  -1.   1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.
  -1.   1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.  -1.  -1.   1.
- -1.   1.   1.  -1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 1, 0, 0] Expected Output Letter: E Predicted Output Letter: E Predicted Output: [0.07500732 0.17037916 0.07614245 0.03902683 0.5611671  0.12671442
- 0.18049115]
+ -1.   1.   1.  -1.   1.   1.   1. ] Expected Output: [0 0 0 0 1 0 0] Predicted Output Int: [0, 0, 0, 0, 0, 0, 0] Expected Output Letter: E Predicted Output Letter: -1 Predicted Output: [0.09503688 0.15223259 0.05562161 0.07177798 0.4736901  0.06980103
+ 0.18986712]
 Input: [-1.  -1.  -1.  -1.   1.   1.   1.  -1.  -1.  -1.  -1.  -1.  -1.5 -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.5 -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.  -1.   1.  -1.
  -1.  -1.  -1.  -1.  -1.   1.  -1.  -1.   1.  -1.  -1.  -1.  -1.  -1.
- -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.13175297 0.06600711 0.1857807  0.04630662 0.13613239 0.61661863
- 0.0733716 ]
+ -1.  -1.   1.   1.   1.  -1.  -1. ] Expected Output: [0 0 0 0 0 1 0] Predicted Output Int: [0, 0, 0, 0, 0, 1, 0] Expected Output Letter: J Predicted Output Letter: J Predicted Output: [0.10925539 0.05855911 0.15893307 0.05738632 0.10667537 0.7221979
+ 0.08873967]
 Input: [-1.  1.  1. -1. -1.  1. -1. -1.  1. -1. -1. -1.  1. -1. -1.  1. -1. -1.
   1. -1. -1. -1.  1. -1. -1. -1. -1. -1. -1.  1.  1. -1. -1. -1. -1. -1.
   1. -1.  1. -1. -1. -1. -1.  1. -1. -1.  1. -1. -1. -1.  1. -1. -1. -1.
- -1. -1. -1.  1.  1. -1. -1.  1.  1.] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 1] Expected Output Letter: K Predicted Output Letter: K Predicted Output: [0.20085551 0.05903067 0.0417463  0.04555321 0.18079376 0.1269237
- 0.6641146 ]
+ -1. -1. -1.  1.  1. -1. -1.  1.  1.] Expected Output: [0 0 0 0 0 0 1] Predicted Output Int: [0, 0, 0, 0, 0, 0, 1] Expected Output Letter: K Predicted Output Letter: K Predicted Output: [0.13484286 0.05602377 0.02199292 0.09019989 0.12844269 0.16292672
+ 0.5863779 ]
