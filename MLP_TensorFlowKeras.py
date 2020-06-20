@@ -173,8 +173,7 @@ def default_cases(problem_choosed, input_number, hidden_number, output_number, e
 
     
     # criando o arquivo de log da predição / outputs
-    # A primeira linha contém a acurácia (taxa de acerto) dos resultados da saída comparados ao esperado
-    prediction = 'General Accuracy: {}\n'.format(hist.history['accuracy'][i])
+    prediction = ''
     
     # Se o problema for AND, OR ou XOR
     if problem_choosed != 'caracteres' :
@@ -227,4 +226,3 @@ def default_cases(problem_choosed, input_number, hidden_number, output_number, e
 #_or(2,4,1,200,0.5)
 #_xor(2,4,1,500,0.5)
 _chars(63,20,7,500,0.5)
-
