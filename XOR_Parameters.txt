@@ -1,5 +1,0 @@
-Input: 2
-Hidden: 4
-Output: 1
-Epochs: 400
-Learning Rate: 0.5
